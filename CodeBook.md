@@ -128,9 +128,9 @@ All the functions listed below can be found at "**getting_cleaning_data.R**"
   **Returns:** One table cotaining the same table but with appropriately labels.
 
 
-#### Step 04 - Creating a summaried table
+#### Step 04 - Creating a summarized table
 
-  **Function Name:** createSummarisedTable()
+  **Function Name:** createSummarizedTable()
 
   **Objetive:** Creates a data set with the average of each variable for each activity and each subject.
 
