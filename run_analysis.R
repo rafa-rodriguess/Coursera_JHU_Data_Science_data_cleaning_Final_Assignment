@@ -180,5 +180,5 @@ allsets <- fixLabels(allsets)
 #Creates avg_by_activity_and_subject using mean_and_std_tb
 avg_by_activity_and_subject <- createSummarisedTable(mean_and_std_tb)
 
-#Write table on disk
+#Write table on disk.
 write.table(avg_by_activity_and_subject,row.name=FALSE, file = "avg_by_activity_and_subject.txt")
