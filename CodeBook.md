@@ -137,7 +137,7 @@ All the functions listed below can be found at "**run_analysis.R**"
   **Returns:** One table summarized by activity and subject.
 
 
-## Contents of table "avg_by_activity_and_subject"
+## Contents of table "avg_by_activity_and_subject":
 
 |Field Name|Data Type|
 |--|--|
@@ -231,7 +231,7 @@ All the functions listed below can be found at "**run_analysis.R**"
 |angle(Z,gravityMean)|double|
 
 
-## Summary of table "avg_by_activity_and_subject"
+## Summary of table "avg_by_activity_and_subject":
 
 ![](sum01.jpg)
 ![](sum02.jpg)
