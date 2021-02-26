@@ -230,3 +230,9 @@ angle(Z,gravityMean)                                  double
 
 
 ## Summary of summarized table "avg_by_activity_and_subject"
+
+![](sum01.jpg)
+![](sum02.jpg)
+![](sum03.jpg)
+![](sum04.jpg)
+
