@@ -14,12 +14,12 @@ Here are the data for the project:
 
 ## On This Project:
 
-- **README.md**  this file
-- **CodeBook.md**  a code book that describes the variables, the data, and any transformations or work performed to clean up the data
-- **getting\_cleaning\_data.R**  R code
-- **Coursera\_JHU\_Data\_Science\_data\_cleaning\_Final\_Assignment.Rproj**  **** R project
+- **README.md** - this file
+- **CodeBook.md** - a code book that describes the variables, the data, and any transformations or work performed to clean up the data
+- **getting\_cleaning\_data.R** - R code
+- **Coursera\_JHU\_Data\_Science\_data\_cleaning\_Final\_Assignment.Rproj** - R project
 
-## How to Run
+## How to Run:
 
 Run **getting\_cleaning\_data.R.**
 
