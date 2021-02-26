@@ -139,100 +139,96 @@ All the functions listed below can be found at "**run_analysis.R**"
 
 ## Contents of summarized table "avg_by_activity_and_subject"
 
-subjects_id                                          integer
-
-activity_name                                      character
-
-time_body_accelerated_mean_X                          double
-
-time_body_accelerated_mean_Y                          double
-
-time_body_accelerated_mean_Z                          double
-
-time_body_accelerated_std_X                           double
-
-time_body_accelerated_std_Y                           double
-time_body_accelerated_std_Z                           double
-time_gravity_accelerated_mean_X                       double
-time_gravity_accelerated_mean_Y                       double
-time_gravity_accelerated_mean_Z                       double
-time_gravity_accelerated_std_X                        double
-time_gravity_accelerated_std_Y                        double
-time_gravity_accelerated_std_Z                        double
-time_body_accelerated_jerk_mean_X                     double
-time_body_accelerated_jerk_mean_Y                     double
-time_body_accelerated_jerk_mean_Z                     double
-time_body_accelerated_jerk_std_X                      double
-time_body_accelerated_jerk_std_Y                      double
-time_body_accelerated_jerk_std_Z                      double
-time_body_gyroscope_mean_X                            double
-time_body_gyroscope_mean_Y                            double
-time_body_gyroscope_mean_Z                            double
-time_body_gyroscope_std_X                             double
-time_body_gyroscope_std_Y                             double
-time_body_gyroscope_std_Z                             double
-time_body_gyroscope_jerk_mean_X                       double
-time_body_gyroscope_jerk_mean_Y                       double
-time_body_gyroscope_jerk_mean_Z                       double
-time_body_gyroscope_jerk_std_X                        double
-time_body_gyroscope_jerk_std_Y                        double
-time_body_gyroscope_jerk_std_Z                        double
-time_body_accelerated_magnitude_mean                  double
-time_body_accelerated_magnitude_std                   double
-time_gravity_accelerated_magnitude_mean               double
-time_gravity_accelerated_magnitude_std                double
-time_body_accelerated_jerk_magnitude_mean             double
-time_body_accelerated_jerk_magnitude_std              double
-time_body_gyroscope_magnitude_mean                    double
-time_body_gyroscope_magnitude_std                     double
-time_body_gyroscope_jerk_magnitude_mean               double
-time_body_gyroscope_jerk_magnitude_std                double
-frequency_body_accelerated_mean_X                     double
-frequency_body_accelerated_mean_Y                     double
-frequency_body_accelerated_mean_Z                     double
-frequency_body_accelerated_std_X                      double
-frequency_body_accelerated_std_Y                      double
-frequency_body_accelerated_std_Z                      double
-frequency_body_accelerated_meanFreq_X                 double
-frequency_body_accelerated_meanFreq_Y                 double
-frequency_body_accelerated_meanFreq_Z                 double
-frequency_body_accelerated_jerk_mean_X                double
-frequency_body_accelerated_jerk_mean_Y                double
-frequency_body_accelerated_jerk_mean_Z                double
-frequency_body_accelerated_jerk_std_X                 double
-frequency_body_accelerated_jerk_std_Y                 double
-frequency_body_accelerated_jerk_std_Z                 double
-frequency_body_accelerated_jerk_meanFreq_X            double
-frequency_body_accelerated_jerk_meanFreq_Y            double
-frequency_body_accelerated_jerk_meanFreq_Z            double
-frequency_body_gyroscope_mean_X                       double
-frequency_body_gyroscope_mean_Y                       double
-frequency_body_gyroscope_mean_Z                       double
-frequency_body_gyroscope_std_X                        double
-frequency_body_gyroscope_std_Y                        double
-frequency_body_gyroscope_std_Z                        double
-frequency_body_gyroscope_meanFreq_X                   double
-frequency_body_gyroscope_meanFreq_Y                   double
-frequency_body_gyroscope_meanFreq_Z                   double
-frequency_body_accelerated_magnitude_mean             double
-frequency_body_accelerated_magnitude_std              double
-frequency_body_accelerated_magnitude_meanFreq         double
-frequency_body_accelerated_jerk_magnitude_mean        double
-frequency_body_accelerated_jerk_magnitude_std         double
-frequency_body_accelerated_jerk_magnitude_meanFreq    double
-frequency_body_gyroscope_magnitude_mean               double
-frequency_body_gyroscope_magnitude_std                double
-frequency_body_gyroscope_magnitude_meanFreq           double
-frequency_body_gyroscope_jerk_magnitude_mean          double
-frequency_body_gyroscope_jerk_magnitude_std           double
-frequency_body_gyroscope_jerk_magnitude_meanFreq      double
-angle(tBodyAccMean,gravity)                           double
-angle(tBodyAccJerkMean),gravityMean)                  double
-angle(tBodyGyroMean,gravityMean)                      double
-angle(tBodyGyroJerkMean,gravityMean)                  double
-angle(X,gravityMean)                                  double
-angle(Y,gravityMean)                                  double
-angle(Z,gravityMean)                                  double
+|Field Name|Data Type|
+|--|--|
+|subjects_id|integer|
+|activity_name|character|
+|time_body_accelerated_mean_X|double|
+|time_body_accelerated_mean_Y|double|
+|time_body_accelerated_mean_Z|double|
+|time_body_accelerated_std_X|double|
+|time_body_accelerated_std_Y|double|
+|time_body_accelerated_std_Z|double|
+|time_gravity_accelerated_mean_X|double|
+|time_gravity_accelerated_mean_Y|double|
+|time_gravity_accelerated_mean_Z|double|
+|time_gravity_accelerated_std_X|double|
+|time_gravity_accelerated_std_Y|double|
+|time_gravity_accelerated_std_Z|double|
+|time_body_accelerated_jerk_mean_X|double|
+|time_body_accelerated_jerk_mean_Y|double|
+|time_body_accelerated_jerk_mean_Z|double|
+|time_body_accelerated_jerk_std_X|double|
+|time_body_accelerated_jerk_std_Y|double|
+|time_body_accelerated_jerk_std_Z|double|
+|time_body_gyroscope_mean_X|double|
+|time_body_gyroscope_mean_Y|double|
+|time_body_gyroscope_mean_Z|double|
+|time_body_gyroscope_std_X|double|
+|time_body_gyroscope_std_Y|double|
+|time_body_gyroscope_std_Z|double|
+|time_body_gyroscope_jerk_mean_X|double|
+|time_body_gyroscope_jerk_mean_Y|double|
+|time_body_gyroscope_jerk_mean_Z|double|
+|time_body_gyroscope_jerk_std_X|double|
+|time_body_gyroscope_jerk_std_Y|double|
+|time_body_gyroscope_jerk_std_Z|double|
+|time_body_accelerated_magnitude_mean|double|
+|time_body_accelerated_magnitude_std|double|
+|time_gravity_accelerated_magnitude_mean|double|
+|time_gravity_accelerated_magnitude_std|double|
+|time_body_accelerated_jerk_magnitude_mean|double|
+|time_body_accelerated_jerk_magnitude_std|double|
+|time_body_gyroscope_magnitude_mean|double|
+|time_body_gyroscope_magnitude_std|double|
+|time_body_gyroscope_jerk_magnitude_mean|double|
+|time_body_gyroscope_jerk_magnitude_std|double|
+|frequency_body_accelerated_mean_X|double|
+|frequency_body_accelerated_mean_Y|double|
+|frequency_body_accelerated_mean_Z|double|
+|frequency_body_accelerated_std_X|double|
+|frequency_body_accelerated_std_Y|double|
+|frequency_body_accelerated_std_Z|double|
+|frequency_body_accelerated_meanFreq_X|double|
+|frequency_body_accelerated_meanFreq_Y|double|
+|frequency_body_accelerated_meanFreq_Z|double|
+|frequency_body_accelerated_jerk_mean_X|double|
+|frequency_body_accelerated_jerk_mean_Y|double|
+|frequency_body_accelerated_jerk_mean_Z|double|
+|frequency_body_accelerated_jerk_std_X|double|
+|frequency_body_accelerated_jerk_std_Y|double|
+|frequency_body_accelerated_jerk_std_Z|double|
+|frequency_body_accelerated_jerk_meanFreq_X|double|
+|frequency_body_accelerated_jerk_meanFreq_Y|double|
+|frequency_body_accelerated_jerk_meanFreq_Z|double|
+|frequency_body_gyroscope_mean_X|double|
+|frequency_body_gyroscope_mean_Y|double|
+|frequency_body_gyroscope_mean_Z|double|
+|frequency_body_gyroscope_std_X|double|
+|frequency_body_gyroscope_std_Y|double|
+|frequency_body_gyroscope_std_Z|double|
+|frequency_body_gyroscope_meanFreq_X|double|
+|frequency_body_gyroscope_meanFreq_Y|double|
+|frequency_body_gyroscope_meanFreq_Z|double|
+|frequency_body_accelerated_magnitude_mean|double|
+|frequency_body_accelerated_magnitude_std|double|
+|frequency_body_accelerated_magnitude_meanFreq|double|
+|frequency_body_accelerated_jerk_magnitude_mean|double|
+|frequency_body_accelerated_jerk_magnitude_std|double|
+|frequency_body_accelerated_jerk_magnitude_meanFreq|double|
+|frequency_body_gyroscope_magnitude_mean|double|
+|frequency_body_gyroscope_magnitude_std|double|
+|frequency_body_gyroscope_magnitude_meanFreq|double|
+|frequency_body_gyroscope_jerk_magnitude_mean|double|
+|frequency_body_gyroscope_jerk_magnitude_std|double|
+|frequency_body_gyroscope_jerk_magnitude_meanFreq|double|
+|angle(tBodyAccMean,gravity)|double|
+|angle(tBodyAccJerkMean),gravityMean)|double|
+|angle(tBodyGyroMean,gravityMean)|double|
+|angle(tBodyGyroJerkMean,gravityMean)|double|
+|angle(X,gravityMean)|double|
+|angle(Y,gravityMean)|double|
+|angle(Z,gravityMean)|double|
 
 
 ## Summary of summarized table "avg_by_activity_and_subject"
