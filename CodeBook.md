@@ -140,11 +140,17 @@ All the functions listed below can be found at "**run_analysis.R**"
 ## Contents of summarized table "avg_by_activity_and_subject"
 
 subjects_id                                          integer
+
 activity_name                                      character
+
 time_body_accelerated_mean_X                          double
+
 time_body_accelerated_mean_Y                          double
+
 time_body_accelerated_mean_Z                          double
+
 time_body_accelerated_std_X                           double
+
 time_body_accelerated_std_Y                           double
 time_body_accelerated_std_Z                           double
 time_gravity_accelerated_mean_X                       double
