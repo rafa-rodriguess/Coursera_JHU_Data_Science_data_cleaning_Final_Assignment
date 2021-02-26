@@ -85,31 +85,55 @@ The complete list of variables of each feature vector is available in 'features.
 All the functions listed below can be found at "**getting_cleaning_data.R**"
 
 #### Step 01 - Downloading file
+
 **Function Name:** downloadZipFile()
+
 **Objective:** Downloads file from the repository and unzip it.
+
 **Returns:** All the files unzipped in the working folder.
 
+
 #### Step 02 - Loading files
+
 **Function Name:** loadFiles()
+
 **Objective:** Loads all the necessary files from the working folder into memory.
+
 **Returns:** *testing_db* and *trainning_db* containing all the features from the training and the testing set.
 
+
 #### Step 03 - Loading files
+
 **Function Name:** mergeTables()
+
 **Objetive:** Merges 2 tables (*testing_db* and *trainning_db* ) by rows. Deletes origin tables.
+
 **Returns:** One merged table.
 
+
 #### Step 04 - Select proper features
+
 **Function Name:** select_mean_std()
+
 **Objetive:** Extracts only the measurements on the mean and standard deviation for each measurement.
+
 **Returns:** One table cotaining only the selected variables.
 
+
 #### Step 04 - Fixing tables variables labels
+
 **Function Name:** fixLabels()
+
 **Objetive:** Appropriately labels the data set with descriptive variable names.
+
 **Returns:** One table cotaining the same table but with appropriately labels.
 
+
 #### Step 04 - Creating a summaried table
+
 **Function Name:** createSummarisedTable()
+
 **Objetive:** Creates a data set with the average of each variable for each activity and each subject.
+
 **Returns:** One table summarizes by activity and subject.
+
