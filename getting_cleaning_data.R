@@ -171,6 +171,11 @@ mean_and_std_tb <- select_mean_std(allsets)
 #Modify mean_and_std_tb
 mean_and_std_tb <- fixLabels(mean_and_std_tb)
 
+#Appropriately labels the data set with descriptive variable names.
+#Modify mean_and_std_tb
+allsets <- fixLabels(allsets)
+View(allsets)
+
 #From the data set in step 4, creates a second, independent tidy data set with
 #the average of each variable for each activity and each subject.
 #Creates avg_by_activity_and_subject using mean_and_std_tb
