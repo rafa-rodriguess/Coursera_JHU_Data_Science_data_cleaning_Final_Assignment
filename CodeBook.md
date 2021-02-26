@@ -82,7 +82,7 @@ The complete list of variables of each feature vector is available in 'features.
 
 ## The Transformation:
 
-All the functions listed below can be found at "**getting_cleaning_data.R**"
+All the functions listed below can be found at "**run_analysis.R**"
 
 #### Step 01 - Downloading file
   **Function Name:** downloadZipFile()
