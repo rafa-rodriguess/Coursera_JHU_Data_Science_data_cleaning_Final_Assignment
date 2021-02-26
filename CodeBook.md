@@ -85,8 +85,7 @@ The complete list of variables of each feature vector is available in 'features.
 All the functions listed below can be found at "**getting_cleaning_data.R**"
 
 #### Step 01 - Downloading file
-
-  **Function Name:** downloadZipFile()
+...**Function Name:** downloadZipFile()
 
   **Objective:** Downloads file from the repository and unzip it.
 
